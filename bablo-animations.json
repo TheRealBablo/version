@@ -3,8 +3,10 @@
     "descriptions": [
         "Fixed previews not showing up",
         "Fixed flags not being set correctly",
+        "Fixed emoteLoop not being set correctly",
         "Small ui fixes",
         "Added server exports (playAnimation, cancelAnimation, getAnimations, getAnimation)",
-        "Added client exports (getAnimation)"
+        "Added client exports (getAnimation)",
+        "Added Config option to disable idle camera"
     ]
 }
