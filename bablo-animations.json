@@ -4,6 +4,7 @@
         "Fixed locales being escrowed when they shouldn't be.",
         "Added client exports (canAccess, setAccess) to check if can open the menu and set if can open the menu.",
         "Changed the animation positioning to make the rotation feature smoother.",
-        "Enhanced animation rotation controls with support for arrow keys and Page Up/Down for greater precision."
+        "Enhanced animation rotation controls with support for arrow keys and Page Up/Down for greater precision.",
+        "Added menu header to the locale file."
     ]
 }
