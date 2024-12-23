@@ -1,12 +1,9 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "descriptions": [
-        "Fixed previews not showing up",
-        "Fixed flags not being set correctly",
-        "Fixed emoteLoop not being set correctly",
-        "Small ui fixes",
-        "Added server exports (playAnimation, cancelAnimation, getAnimations, getAnimation)",
-        "Added client exports (getAnimation)",
-        "Added Config option to disable idle camera"
+        "Fixed locales being escrowed when they shouldn't be.",
+        "Added client exports (canAccess, setAccess) to check if can open the menu and set if can open the menu.",
+        "Changed the animation positioning to make the rotation feature smoother.",
+        "Enhanced animation rotation controls with support for arrow keys and Page Up/Down for greater precision."
     ]
 }
