@@ -1,7 +1,7 @@
 {
     "version": "1.0.3",
     "descriptions": [
-        "Fixed bug that caused error on in version check.",
+        "Fixed bug that caused error in the version check.",
         "You can now cancel animation while the menu is open",
         "You can now move around while the menu is open",
         "Added previews for walkingstyles and expressions",
