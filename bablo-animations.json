@@ -1,10 +1,7 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "descriptions": [
-        "Fixed bug that caused error in the version check.",
-        "You can now cancel animation while the menu is open",
-        "You can now move around while the menu is open",
-        "Added previews for walkingstyles and expressions",
-        "Added essential props certain animations"
+        "Fixed bug that caused error when getting cache",
+        "Fixed bug where chat and would open when searching for an animation"
     ]
 }
