@@ -1,8 +1,10 @@
 {
     "version": "1.0.5",
     "descriptions": [
-        "Fixed issues with 4k screens and scrolling",
-        "Revamped and redesigned the entire UI",
-        "Colors are now customizable in dist/colors.css"
+        "Fixed issues with 4k screens and scrolling.",
+        "Revamped and redesigned the entire UI.",
+        "Colors are now customizable in dist/colors.css.",
+        "New client sided exports (setWalkingstyle, setExpression).",
+        "Players will now be correctly frozen while placing animations."
     ]
 }
