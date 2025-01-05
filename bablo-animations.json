@@ -5,6 +5,7 @@
         "Revamped and redesigned the entire UI.",
         "Colors are now customizable in dist/colors.css.",
         "New client sided exports (setWalkingstyle, setExpression).",
-        "Players will now be correctly frozen while placing animations."
+        "Players will now be correctly frozen while placing animations.",
+        "Fixed issue with not being able to shoot while using a shooting style."
     ]
 }
