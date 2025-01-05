@@ -1,7 +1,8 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "descriptions": [
-        "Fixed bug that caused error when getting cache",
-        "Fixed bug where chat and would open when searching for an animation"
+        "Fixed issues with 4k screens and scrolling",
+        "Revamped and redesigned the entire UI",
+        "Colors are now customizable in dist/colors.css"
     ]
 }
