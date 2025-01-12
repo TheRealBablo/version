@@ -6,7 +6,6 @@
         "Added Group system create group with friends and play dances other animations synced together.",
         "Fixes in framework files.",
         "Animations will now be loaded in batches to prevent lag.",
-        "Changed the menu loads data",
-        "Changed the menu loads data"
+        "Changed how the menu loads data"
     ]
 }
