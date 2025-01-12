@@ -1,11 +1,12 @@
 {
-    "version": "1.0.5",
+    "version": "2.0.0",
     "descriptions": [
-        "Fixed issues with 4k screens and scrolling.",
-        "Revamped and redesigned the entire UI.",
-        "Colors are now customizable in dist/colors.css.",
-        "New client sided exports (setWalkingstyle, setExpression).",
-        "Players will now be correctly frozen while placing animations.",
-        "Fixed issue with not being able to shoot while using a shooting style."
+        "Fixed ui bugs.",
+        "New keybind system allows players to choose their own keybinds for animations by using shift + any key.",
+        "Added Group system create group with friends and play dances other animations synced together.",
+        "Fixes in framework files.",
+        "Animations will now be loaded in batches to prevent lag.",
+        "Changed the menu loads data",
+        "Changed the menu loads data"
     ]
 }
