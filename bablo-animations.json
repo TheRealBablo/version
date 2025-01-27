@@ -1,11 +1,10 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.2",
     "descriptions": [
-        "Fixed ui bugs.",
-        "New keybind system allows players to choose their own keybinds for animations by using shift + any key.",
-        "Added Group system create group with friends and play dances other animations synced together.",
-        "Fixes in framework files.",
-        "Animations will now be loaded in batches to prevent lag.",
-        "Changed how the menu loads data"
+        "Improved overall performance with various fixes.",
+        "Added new features including ragdoll, crouch, hands-up, and pointing modules.",
+        "Enhanced animation placement with adjustable height, positioning, and easy alignment on the ground.",
+        "Fixed a bug causing errors when retrieving nearby players.",
+        "Resolved QBCore compatibility issues when fetching player names."
     ]
 }
