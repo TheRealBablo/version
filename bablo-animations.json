@@ -1,10 +1,14 @@
 {
-    "version": "2.0.2",
+    "version": "2.0.3",
     "descriptions": [
-        "Improved overall performance with various fixes.",
-        "Added new features including ragdoll, crouch, hands-up, and pointing modules.",
-        "Enhanced animation placement with adjustable height, positioning, and easy alignment on the ground.",
-        "Fixed a bug causing errors when retrieving nearby players.",
-        "Resolved QBCore compatibility issues when fetching player names."
+        "Added an option in colors.css to change color direction from left to right.",
+        "The /e command is now configurable via Config.EmoteCommand.",
+        "Introduced new categories: Vehicle Emotes and Animal Emotes.",
+        "Added the 'onlyAnimal' config option to restrict animations to NPCs listed in Config.AnimalPeds.",
+        "Fixed an issue preventing players from driving while animations were active.",
+        "Resolved a UI bug where new categories would stack incorrectly.",
+        "Fixed a bug causing a player's own character to appear in the group invite tab.",
+        "Added Config.Weapons to define weapon-specific animation styles.",
+        "Implemented holstering animations with a unique version for police, allowing for a faster draw speed."
     ]
 }
