@@ -1,14 +1,10 @@
 {
-    "version": "2.0.3",
+    "version": "2.0.4",
     "descriptions": [
-        "Added an option in colors.css to change color direction from left to right.",
-        "The /e command is now configurable via Config.EmoteCommand.",
-        "Introduced new categories: Vehicle Emotes and Animal Emotes.",
-        "Added the 'onlyAnimal' config option to restrict animations to NPCs listed in Config.AnimalPeds.",
-        "Fixed an issue preventing players from driving while animations were active.",
-        "Resolved a UI bug where new categories would stack incorrectly.",
-        "Fixed a bug causing a player's own character to appear in the group invite tab.",
-        "Added Config.Weapons to define weapon-specific animation styles.",
-        "Implemented holstering animations with a unique version for police, allowing for a faster draw speed."
+        "Performance fixes.",
+        "Fixed bug with weapon styles with the gun weapon_pistol shoots twice in quick succcesion.",
+        "Fixed bug in holstering it would play when the user loads in.",
+        "Holstering is no false on default it can be enabled in Config.Modules",
+        "Keymapping descriptions are now in the locale file"
     ]
 }
