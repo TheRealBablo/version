@@ -8,6 +8,8 @@
         "Fixed the /e cancel and /c commands for canceling animations.",
         "Resolved an issue where scrolling wouldn't work when control was disabled.",
         "Fixed a bug where the placed animation wouldn't play.",
-        "Addressed an issue where placing a ped caused collision issues."
+        "Addressed an issue where placing a ped caused collision issues.",
+        "Added a new Crawl module.",
+        "In the Config.CharacterSpecific, you can now choose what should be synced between characters or if it should be synced individually for each character."
     ]
 }
