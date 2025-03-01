@@ -1,10 +1,13 @@
 {
-    "version": "2.0.4",
+    "version": "2.0.5",
     "descriptions": [
-        "Performance fixes.",
-        "Fixed bug with weapon styles with the gun weapon_pistol shoots twice in quick succcesion.",
-        "Fixed bug in holstering it would play when the user loads in.",
-        "Holstering is no false on default it can be enabled in Config.Modules",
-        "Keymapping descriptions are now in the locale file"
+        "Added 49 new dances and over 350 animations.",
+        "Reworked the crunch module.",
+        "The Handsup module will now reset to the previous cached expression if it was applied.",
+        "Fixed an issue where pressing 'X' while walking to a placed animation spot would cause an instant teleport. It is recommended to use the Handsup module provided in the script to avoid similar issues.",
+        "Fixed the /e cancel and /c commands for canceling animations.",
+        "Resolved an issue where scrolling wouldn't work when control was disabled.",
+        "Fixed a bug where the placed animation wouldn't play.",
+        "Addressed an issue where placing a ped caused collision issues."
     ]
 }
