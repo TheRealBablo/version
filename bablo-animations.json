@@ -1,7 +1,7 @@
 {
     "version": "2.0.6",
     "descriptions": [
-        "Completely redesigned UI with improved components",
+        "Completely redone UI with improved components",
         "Fixed major scrolling lag issue when scrolling through the list of animations",
         "Various UI bug fixes and better support for larger screens"
     ]
