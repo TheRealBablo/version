@@ -1,8 +1,8 @@
 {
-    "version": "2.0.6",
+    "version": "2.0.7",
     "descriptions": [
-        "Completely redone UI with improved components",
-        "Fixed major scrolling lag issue when scrolling through the list of animations",
-        "Various UI bug fixes and better support for larger screens"
+        "Added more walking styles and expressions.",
+        "Fixed an issue where an animation bind could be triggered by pressing only the disabled key, even when Shift was required.",
+        "Resolved issues with numpad keys not working properly."
     ]
 }
