@@ -1,8 +1,8 @@
 {
-    "version": "2.0.7",
+    "version": "2.0.8",
     "descriptions": [
-        "Added more walking styles and expressions.",
-        "Fixed an issue where an animation bind could be triggered by pressing only the disabled key, even when Shift was required.",
-        "Resolved issues with numpad keys not working properly."
+        "Added webhooks: You can now enable Config.Logs and set up your webhooks in webhooks.lua.",
+        "Fixed issues with the crouch module.",
+        "Introduced a new module to disable leaning and hiding behind objects."
     ]
 }
