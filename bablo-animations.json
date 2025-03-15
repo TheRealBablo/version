@@ -1,8 +1,9 @@
 {
-    "version": "2.0.8",
+    "version": "2.0.9",
     "descriptions": [
-        "Added webhooks: You can now enable Config.Logs and set up your webhooks in webhooks.lua.",
-        "Fixed issues with the crouch module.",
-        "Introduced a new module to disable leaning and hiding behind objects."
+        "Added new client exports (isMenuOpen, disableCancelAnimation(state)).",
+        "Introduced a new statebag (isInAnimation) that returns the currently playing animation or false if no animation is active.",
+        "Removed unnecessary code from the UI.",
+        "Previews are now in WEBP format instead of PNG, improving performance with around 80% reduction in file size."
     ]
 }
