@@ -1,4 +1,6 @@
 {
-    "version": "1.0.0",
-    "descriptions": []
+    "version": "1.0.1",
+    "descriptions": [
+        "Introduced a new Config option named CustomButtons for creating custom buttons."
+    ]
 }
