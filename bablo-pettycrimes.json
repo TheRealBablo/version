@@ -1,4 +1,8 @@
 {
-    "version": "1.0.0",
-    "descriptions": []
+  "version": "1.0.1",
+  "descriptions": [
+    "Fixed issue in translation",
+    "New function Framework:onFinished to be called when you successfully finish a crime",
+    "New function Framework:canDoAction to check if you can do a crime"
+  ]
 }
