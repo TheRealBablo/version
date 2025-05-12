@@ -1,8 +1,14 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "descriptions": [
-    "Fixed issue in translation",
-    "New function Framework:onFinished to be called when you successfully finish a crime",
-    "New function Framework:canDoAction to check if you can do a crime"
+    "Added Fear Meter: Keep the pressure on! A new Fear Meter appears during muggings. You'll need to actively threaten the NPC to keep their fear high. If the meter drops to zero, the mugging fails!",
+    "Added Smash N Grab Spawn Chance: Added a new config option `Config.SmashnGrab.ChanceToSpawn` allowing you to fine-tune the probability of spawned vehicles being robbable.",
+    "Improved NetID Handling: Reworked how the script handles network IDs for better stability and detection of 'ghost' entities.",
+    "Improved Mugging: No more constant aiming required! You no longer need to keep your weapon pointed directly at the NPC throughout the entire mugging process.",
+    "Optimized Smash N Grab: Rewrote the Smash N Grab logic to rely solely on `entityCreated` and `entityDeleted` events, significantly improving performance.",
+    "More Reliable Smash N Grab: Implemented additional checks and failsafes for selecting robbable vehicles.",
+    "Fixed various script errors.",
+    "Fixed an issue preventing Qbox framework detection.",
+    "Addressed crashes and stability problems related to mugging."
   ]
 }
