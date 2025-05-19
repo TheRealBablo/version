@@ -1,24 +1,12 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "descriptions": [
-        "Massive Animation Library Expansion: Over 5000 new animations have been added, bringing the total count to over 6000, including various dances, shared emotes, and general emotes.",
-        "PTFX Effects: Many animations now feature stunning particle effects and can also be added to new animations.",
-        "Upper Body Only Animations: A new button allows animations to play only on the upper body, automatically applying to flagged animations and skipping forced full-body flags.",
-        "Settings Menu - Menu Size: Players can adjust the menu size, which is helpful for different screen resolutions including 4K.",
-        "Settings Menu - Music Volume: Emotes can now have audio; players can control the music volume for themselves (which also changes for nearby players) or mute it.",
-        "Settings Menu - GIF Preview Toggle: Players are now able to disable the GIF animation previews that play on hover.",
-        "Settings Menu - Performance Mode: A performance mode will disable all previews of animations for better performance.",
-        "Sequence Creator: Players are now able to create sequence animations, choosing different animations/dances to play for specific amounts of seconds in one click.",
-        "Music Animations: Players are now able to add music to any emote/dance that will play during the animation. Nearby players can hear the music (requires xsound dependency; use `musicURL` for local mp3 or YouTube links).",
-        "New Animation Option - `onlyOnFoot`: This option makes it so an animation can only be played while the user is on foot.",
-        "Idle Animation Module: A new module has been added that will play custom idle animations.",
-        "UI Revamp: All UI components have received a visual overhaul for a cleaner and more modern look.",
-        "Simplified File Directory: The file directory has been completely changed for easier access when updating; in the future, only the `src` folder will typically need changes, not `color.css`, `animations`, or `frameworks`.",
-        "`color.css` Relocated: The `color.css` file has been moved for easier access and customization.",
-        "Qbox Support: Qbox has been added as a prefixed framework in the `frameworks` folder.",
-        "Gun Styles & Keybinds Performance: The script's handling of gun styles and keybinds has been recoded for slightly better performance.",
-        "Resolved issues with gun styles looking weird on different guns than `weapon_pistol`.",
-        "Fixed an issue with the animation option `onlyInVehicle` not working.",
-        "Resolved various other bugs."
+        "Updated Female Idle Animations: The new idle animations for female characters have been fixed and are now working as intended.",
+        "Pazeee Fortnite Packs Fully Integrated: All of Pazzee's Fortnite animation packs, including any previously missing ones (like v6), have now been added.",
+        "Pre-configured Music for Pazeee Packs: All Pazeee Fortnite animation packs now include pre-configured music for each animation. To enable this feature, navigate to `animations/creators`, find your specific pack, and set `musicEnabled` to `true`.",
+        "Group Music Animation Playback: Resolved an issue where music animations played within a group would incorrectly play from multiple sources simultaneously, leading to a poor audio experience.",
+        "Group Member Display: Fixed an issue where players already in a group were sometimes incorrectly shown in the 'nearby players' list.",
+        "Idle Animation Stability: Implemented failsafes within the idle animations module to improve stability and prevent potential issues.",
+        "QBox Framework `getPlayerName` Function: Remade the `getPlayerName` function within the QBox framework to address issues causing names to display as 'Unknown Player' in group and nearby player lists. Player names should now consistently appear correctly."
     ]
 }
