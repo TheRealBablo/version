@@ -1,14 +1,9 @@
 {
-  "version": "1.0.2",
-  "descriptions": [
-    "Added Fear Meter: Keep the pressure on! A new Fear Meter appears during muggings. You'll need to actively threaten the NPC to keep their fear high. If the meter drops to zero, the mugging fails!",
-    "Added Smash N Grab Spawn Chance: Added a new config option `Config.SmashnGrab.ChanceToSpawn` allowing you to fine-tune the probability of spawned vehicles being robbable.",
-    "Improved NetID Handling: Reworked how the script handles network IDs for better stability and detection of 'ghost' entities.",
-    "Improved Mugging: No more constant aiming required! You no longer need to keep your weapon pointed directly at the NPC throughout the entire mugging process.",
-    "Optimized Smash N Grab: Rewrote the Smash N Grab logic to rely solely on `entityCreated` and `entityDeleted` events, significantly improving performance.",
-    "More Reliable Smash N Grab: Implemented additional checks and failsafes for selecting robbable vehicles.",
-    "Fixed various script errors.",
-    "Fixed an issue preventing Qbox framework detection.",
-    "Addressed crashes and stability problems related to mugging."
-  ]
+    "version": "1.0.3",
+    "descriptions": [
+        "No More Robbable Cars Despawning: We've squashed a bug that caused robbable vehicles to despawn when you approached them and their associated props (like the bag) were spawning.",
+        "Ghost Parcels: Those phantom, empty packages that sometimes appeared are now gone for good.",
+        "Corrected `qbox` Events: The `qbox loaded` event was triggering incorrectly, but we've fixed it so it behaves as expected.",
+        "Blacklisted Models Are Working: The issue preventing `blacklistedmodels` from functioning correctly has been resolved. You can now properly restrict those models."
+    ]
 }
