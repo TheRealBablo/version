@@ -1,12 +1,15 @@
 {
-    "version": "3.0.1",
+    "version": "3.0.2",
     "descriptions": [
-        "Updated Female Idle Animations: The new idle animations for female characters have been fixed and are now working as intended.",
-        "Pazeee Fortnite Packs Fully Integrated: All of Pazzee's Fortnite animation packs, including any previously missing ones (like v6), have now been added.",
-        "Pre-configured Music for Pazeee Packs: All Pazeee Fortnite animation packs now include pre-configured music for each animation. To enable this feature, navigate to `animations/creators`, find your specific pack, and set `musicEnabled` to `true`.",
-        "Group Music Animation Playback: Resolved an issue where music animations played within a group would incorrectly play from multiple sources simultaneously, leading to a poor audio experience.",
-        "Group Member Display: Fixed an issue where players already in a group were sometimes incorrectly shown in the 'nearby players' list.",
-        "Idle Animation Stability: Implemented failsafes within the idle animations module to improve stability and prevent potential issues.",
-        "QBox Framework `getPlayerName` Function: Remade the `getPlayerName` function within the QBox framework to address issues causing names to display as 'Unknown Player' in group and nearby player lists. Player names should now consistently appear correctly."
+        "Added new export to get crouch state: `isCrouched`",
+        "Added new export to get prone state: `isProne`",
+        "Added new animation config option in animations to make them not show in the UI: `hide`",
+        "All latest Pazeee Animation packs have premade configs and previews.",
+        "Removed existing debug prints.",
+        "Menu performance has been improved when it comes to executing natives.",
+        "Menu is now completely supported by Lua OAL to not get any issues when FiveM updates; this option is always enabled.",
+        "Fixed an issue making so sequences only played max 2 animations.",
+        "Fixed issue with sound showing an error when trying to cancel.",
+        "Fixed issue with being able to spam music so they would always play music in that place."
     ]
 }
