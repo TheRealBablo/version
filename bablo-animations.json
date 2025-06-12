@@ -1,15 +1,10 @@
 {
-    "version": "3.0.2",
+    "version": "3.0.3",
     "descriptions": [
-        "Added new export to get crouch state: `isCrouched`",
-        "Added new export to get prone state: `isProne`",
-        "Added new animation config option in animations to make them not show in the UI: `hide`",
-        "All latest Pazeee Animation packs have premade configs and previews.",
-        "Removed existing debug prints.",
-        "Menu performance has been improved when it comes to executing natives.",
-        "Menu is now completely supported by Lua OAL to not get any issues when FiveM updates; this option is always enabled.",
-        "Fixed an issue making so sequences only played max 2 animations.",
-        "Fixed issue with sound showing an error when trying to cancel.",
-        "Fixed issue with being able to spam music so they would always play music in that place."
+        "While an animation is being played you can use the `animpos` command to reposition the animation with more accuracy.",
+        "Added new locales: `sv-SE` (Swedish) and `cn-ZH` (Chinese).",
+        "Added chat suggestions for the `/e` command, making it quicker and easier to find animations.",
+        "Fixed an issue with Pazees preconfigured latest package to work as intended.",
+        "Added a missing locale."
     ]
 }
