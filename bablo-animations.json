@@ -1,10 +1,10 @@
 {
-    "version": "3.0.3",
+    "version": "3.0.4",
     "descriptions": [
-        "While an animation is being played you can use the `animpos` command to reposition the animation with more accuracy.",
-        "Added new locales: `sv-SE` (Swedish) and `cn-ZH` (Chinese).",
-        "Added chat suggestions for the `/e` command, making it quicker and easier to find animations.",
-        "Fixed an issue with Pazees preconfigured latest package to work as intended.",
-        "Added a missing locale."
+        "Expanded Animation Library: We've added 30 new synced animations, bringing more dynamic and coordinated actions to your experience.",
+        "Fortnite Animation Pack: Enjoy 60 free Fortnite-inspired animations, perfect for adding unique flair.",
+        "Weapon Style Persistence: Resolved an issue where weapon styles would incorrectly persist even after switching to a weapon not configured in `config.weapons`.",
+        "Invisible Weapon Fix: Fixed a bug that caused weapons to become invisible while facing a gun.",
+        "Idle Animation Conflict Resolution: Addressed conflicts between idle and laying down animations. You can now also define custom `blockedAnims` for idle animations in `src/resource/client/modules/idle.lua`."
     ]
 }
