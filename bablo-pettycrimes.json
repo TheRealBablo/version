@@ -1,9 +1,10 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "descriptions": [
-        "No More Robbable Cars Despawning: We've squashed a bug that caused robbable vehicles to despawn when you approached them and their associated props (like the bag) were spawning.",
-        "Ghost Parcels: Those phantom, empty packages that sometimes appeared are now gone for good.",
-        "Corrected `qbox` Events: The `qbox loaded` event was triggering incorrectly, but we've fixed it so it behaves as expected.",
-        "Blacklisted Models Are Working: The issue preventing `blacklistedmodels` from functioning correctly has been resolved. You can now properly restrict those models."
+        "Added Parking Meter Robbery module: Find and rob parking meters using a minigame. Includes a global cooldown—only one robbery allowed per restart.",
+        "Added support for tk_dispatch dispatch system.",
+        "Added support for cd_dispatch dispatch system.",
+        "Fixed a bug where pickpocketing could randomly fail after receiving a reward.",
+        "Fixed an issue where parcel cooldowns were being triggered automatically."
     ]
 }
