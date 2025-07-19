@@ -1,4 +1,10 @@
 {
-    "version": "1.0.0",
-    "descriptions": []
+    "version": "1.0.1",
+    "descriptions": [
+        "Added reverseLayout option in config.json to reverse the position of the percentage and 'loading...' text",
+        "Fixed issue where changing volume would stop the music",
+        "Embed links now work correctly as video sources in config.json",
+        "Fixed rankColor not applying correctly when customizing staff member colors in config.json",
+        "Corrected misplacement of the video table in config.json"
+    ]
 }
