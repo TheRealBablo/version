@@ -1,8 +1,13 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "descriptions": [
-        "Fixed a missing Framework:getPlayerName function.",
-        "Resolved an issue where mailboxes could only be robbed once, causing all others to remain on cooldown.",
-        "Fixed a bug where parking meter props could only be robbed once, putting all others on cooldown."
+      "Added a new config option: Config.Parcels.ParcelBombProbability to control the chance of a parcel being a bomb. Set to 0 to disable.",
+      "Peds can now retaliate during muggings by fighting back.",
+      "The talking meter in muggings now decreases faster, encouraging more interaction.",
+      "Improved overall performance with various optimizations.",
+      "Fixed cooldown issues with mailboxes and parking meters.",
+      "Resolved an issue with ox_target trying to register models before they were loaded.",
+      "Fixed police alerts being spammed during muggings."
     ]
-}
+  }
+  
