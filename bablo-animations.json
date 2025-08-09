@@ -1,10 +1,15 @@
 {
-    "version": "3.0.4",
+    "version": "3.0.5",
     "descriptions": [
-        "Expanded Animation Library: We've added 30 new synced animations, bringing more dynamic and coordinated actions to your experience.",
-        "Fortnite Animation Pack: Enjoy 60 free Fortnite-inspired animations, perfect for adding unique flair.",
-        "Weapon Style Persistence: Resolved an issue where weapon styles would incorrectly persist even after switching to a weapon not configured in `config.weapons`.",
-        "Invisible Weapon Fix: Fixed a bug that caused weapons to become invisible while facing a gun.",
-        "Idle Animation Conflict Resolution: Addressed conflicts between idle and laying down animations. You can now also define custom `blockedAnims` for idle animations in `src/resource/client/modules/idle.lua`."
+        "Added a check for ox_inventory — if the inventory is open, the player will no longer be able tocrouch.",
+        "Added a config option to disable numkeys as keybinds.",
+        "Added a config option to disable all keybinds.",
+        "Added missing translations in the invite dialog.",
+        "Rewrote the crouch module for better performance.",
+        "Fixed Config.AnimAdjustCommand so it can be disabled by setting it to false.",
+        "Fixed animpos collision so you can’t go through walls while using it.",
+        "Fixed an issue where selecting a new weapon style while holding a weapon not listed in Config.Weapons would still apply.",
+        "Fixed music not stopping after a user stopped dancing.",
+        "Fixed two instances of hard-coded colors that weren’t customizable."
     ]
 }
