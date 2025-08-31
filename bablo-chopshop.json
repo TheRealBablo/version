@@ -1,4 +1,9 @@
 {
-    "version": "1.0.0",
-    "descriptions": []
+    "version": "1.0.1",
+    "descriptions": [
+        "Added webhooks for receiving a contract, chopping a vehicle, and completing a contract.",
+        "Fixed a missing Framework:getPlayerName function.",
+        "Fixed a missing Framework:getTopPlayers function.",
+        "Resolved an issue where the version check could cause an error."
+    ]
 }
