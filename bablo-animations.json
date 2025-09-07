@@ -1,15 +1,8 @@
 {
-    "version": "3.0.5",
+    "version": "3.0.6",
     "descriptions": [
-        "Added a check for ox_inventory — if the inventory is open, the player will no longer be able tocrouch.",
-        "Added a config option to disable numkeys as keybinds.",
-        "Added a config option to disable all keybinds.",
-        "Added missing translations in the invite dialog.",
-        "Rewrote the crouch module for better performance.",
-        "Fixed Config.AnimAdjustCommand so it can be disabled by setting it to false.",
-        "Fixed animpos collision so you can’t go through walls while using it.",
-        "Fixed an issue where selecting a new weapon style while holding a weapon not listed in Config.Weapons would still apply.",
-        "Fixed music not stopping after a user stopped dancing.",
-        "Fixed two instances of hard-coded colors that weren’t customizable."
+        "Added a group system allowing specific animations to be locked to defined groups like admins or VIPs. Configurable in Config.Groups.",
+        "Added Config.ServerSideSpawn to allow all props to be spawned server-side and owned by the server.",
+        "Added a height check to the animpos command."
     ]
 }
