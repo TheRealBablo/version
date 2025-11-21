@@ -1,5 +1,5 @@
 {
-    "version": "3.0.9",
+    "version": "3.0.8",
     "descriptions": [
         "The red color on all delete/clear/decline buttons is now customizable in colors.css under --danger.",
         "Added help text when right-clicking an animation while using /animpos. All keys and text can now be edited in config.lua under Config.AnimPos.",
