@@ -1,17 +1,15 @@
 {
-    "version": "3.0.7",
+    "version": "3.0.9",
     "descriptions": [
-        "Added new customizable logic functions: Framework:canOpenMenu(), Framework:canPlayAnimation(animationName), Framework:onPlayAnimation(animationName), and Framework:onCancelAnimation().",
-        "Performance Mode now displays animations in a clean list format instead of boxes with question marks.",
-        "Introduced a Big Menu option that can be enabled in animation settings or by default via Config.DefaultSettings (requires FiveM cache clear for existing players).",
-        "Added full backwards compatibility with dpemotes and rpemotes, allowing their exports and events like animations:client:EmoteCommandStart to work.",
-        "Added Pazeees latest packs: DancePackV7 and FlagEmotePack.",
-        "Improved UI with hover backgrounds on categories and animation cards.",
-        "Scenario animations now properly remove props after use.",
-        "Fixed rotation sync issues with animpos.",
-        "Fixed UI bug when adding more than 8 animations in a sequence.",
-        "General bug fixes and performance improvements.",
-        "Directories to replace: src/, frameworks/, locales/",
-        "Files to replace: config.lua, fxmanifest.lua"
+        "The red color on all delete/clear/decline buttons is now customizable in colors.css under --danger.",
+        "Added help text when right-clicking an animation while using /animpos. All keys and text can now be edited in config.lua under Config.AnimPos.",
+        "The menu now caches your last position. If you open a category like 'Dances', scroll halfway, close the menu, it will reopen at the same spot instead of resetting.",
+        "Added ShouldHold option in resource/src/client/modules/handsup.lua, allowing hands-up to be hold-to-raise or toggle mode.",
+        "Fixed issue where animation GIFs wouldn’t show in the sequence creator.",
+        "Fixed bug where selecting a walking style, switching to default, and relogging still kept the old walking style.",
+        "Fixed issue where disabling 'Show GIF' did nothing.",
+        "Fixed issue where closing settings and pressing spacebar reopened settings.",
+        "Directories to replace: src/",
+        "Files to replace: config.lua, colors.css"
     ]
 }

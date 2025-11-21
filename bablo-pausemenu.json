@@ -1,7 +1,8 @@
 {
-  "version": "1.0.2",
-  "descriptions": [
-    "New function Framework:onOpen where you can add your own logic what should happen when the pause menu is opened",
-    "New function Framework:onClose where you can add your own logic what should happen when the pause menu is closed"
-  ]
+    "version": "1.0.5",
+    "descriptions": [
+        "Added checks to prevent the pause menu from opening when pressing ESC if another UI is already open",
+        "Fixed an issue where the waypoint could get stuck after being removed",
+        "Fixed an issue where the waypoint would randomly disappear"
+    ]
 }
