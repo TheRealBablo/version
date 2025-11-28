@@ -1,0 +1,8 @@
+{
+    "version": "1.0.1",
+    "descriptions": [
+        "Added additional bank locations to Config.Bankers.",
+        "Added missing Spanish and Swedish locale entries.",
+        "Fixed an issue where the PIN code would stop working after switching it, preventing ATM access."
+    ]
+}
