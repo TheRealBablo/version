@@ -1,15 +1,12 @@
 {
-    "version": "3.0.8",
+    "version": "3.0.9",
     "descriptions": [
-        "The red color on all delete/clear/decline buttons is now customizable in colors.css under --danger.",
-        "Added help text when right-clicking an animation while using /animpos. All keys and text can now be edited in config.lua under Config.AnimPos.",
-        "The menu now caches your last position. If you open a category like 'Dances', scroll halfway, close the menu, it will reopen at the same spot instead of resetting.",
-        "Added ShouldHold option in resource/src/client/modules/handsup.lua, allowing hands-up to be hold-to-raise or toggle mode.",
-        "Fixed issue where animation GIFs wouldn’t show in the sequence creator.",
-        "Fixed bug where selecting a walking style, switching to default, and relogging still kept the old walking style.",
-        "Fixed issue where disabling 'Show GIF' did nothing.",
-        "Fixed issue where closing settings and pressing spacebar reopened settings.",
-        "Directories to replace: src/",
-        "Files to replace: config.lua, colors.css"
+        "Added Focus Mode — when holding ALT, you can now focus/unfocus to freely move your camera.",
+        "When an animation is playing in the header and you are in the menu, a new “Edit Position” button now appears, automatically triggering /animpos so you no longer need to type the command manually.",
+        "Added a quick “X” button in the search input to instantly clear your previous search.",
+        "Search terms are now cached when closing the menu, so your last search remains when reopening.",
+        "The /e command now supports animations typed in both uppercase and lowercase.",
+        "Fixed an issue where removing binds wouldn’t properly delete the assigned bind.",
+        "Fixed a bug where, if a music animation was used inside a sequence, the animation after the music animation would not play."
     ]
 }
