@@ -1,9 +1,12 @@
 {
-    "version": "3.1.0",
+    "version": "3.1.1",
     "descriptions": [
-        "Added support for the latest Pazeee pack: Pazeee_SnowEmotePackV2.",
-        "Added missing locales.",
-        "Fixed clipping issues and the ability to walk through doors while using the animpos command.",
-        "Fixed caching issues when the Big Menu is enabled."
+        "New Feature: Player Selection for Shared Anims - When selecting a shared animation with multiple people nearby, you can now choose exactly who to play the animation with (no longer random selection).",
+        "New Feature: Localization - Added French translation.",
+        "Improvement: Sound System - Recoded the sound system to prevent even more cache issues.",
+        "Improvement: Cloned Peds - Addressed issues where right-clicking an animation would not show the cloned ped.",
+        "Improvement: Controls - You can now use the 'X' key to cancel Animation Positioning (in addition to ESC).",
+        "Bug Fix - Fixed an issue where keybinds were not saving correctly.",
+        "Bug Fix - Fixed an issue preventing Numpad keybinds from being added while Num Lock is enabled."
     ]
 }
