@@ -1,8 +1,11 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "descriptions": [
-        "Added additional bank locations to Config.Bankers.",
-        "Added missing Spanish and Swedish locale entries.",
-        "Fixed an issue where the PIN code would stop working after switching it, preventing ATM access."
+        "Added missing locales for better language support.",
+        "Refactored exports to return success or false states for improved logic.",
+        "Added RegisterSociety export to create societies dynamically via scripts.",
+        "Optimized ATM Resmon usage while not in use.",
+        "Removed redundant money exports (AddDefaultMoney, etc.) to prioritize native framework functions.",
+        "Fixed various errors occurring within exports."
     ]
 }
