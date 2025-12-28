@@ -1,11 +1,7 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "descriptions": [
-        "Added missing locales for better language support.",
-        "Refactored exports to return success or false states for improved logic.",
-        "Added RegisterSociety export to create societies dynamically via scripts.",
-        "Optimized ATM Resmon usage while not in use.",
-        "Removed redundant money exports (AddDefaultMoney, etc.) to prioritize native framework functions.",
-        "Fixed various errors occurring within exports."
+        "Fixed a UI synchronization issue where the old PIN would display if the menu was reopened immediately after a change.",
+        "Implemented PIN validation to restrict codes starting with '0' to prevent data formatting errors."
     ]
 }
