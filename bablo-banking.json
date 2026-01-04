@@ -1,7 +1,6 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "descriptions": [
-        "Fixed a UI synchronization issue where the old PIN would display if the menu was reopened immediately after a change.",
-        "Implemented PIN validation to restrict codes starting with '0' to prevent data formatting errors."
+        "Fixed UI button alignment issues (Deposit/Withdraw) for the prop_atm_01 model."
     ]
 }
