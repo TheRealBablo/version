@@ -1,9 +1,7 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "descriptions": [
-        "Added webhooks for receiving a contract, chopping a vehicle, and completing a contract.",
-        "Fixed a missing Framework:getPlayerName function.",
-        "Fixed a missing Framework:getTopPlayers function.",
-        "Resolved an issue where the version check could cause an error."
+        "Added support for contract-specific rewards, allowing loot to be locked behind specific difficulty types.",
+        "General stability improvements and minor bug fixes."
     ]
 }

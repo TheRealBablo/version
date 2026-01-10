@@ -1,6 +1,7 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "descriptions": [
-        "Fixed UI button alignment issues (Deposit/Withdraw) for the prop_atm_01 model."
+        "Added Config.OnlyOwnerCanUseCard to restrict debit card usage to the account creator.",
+        "Disabled debug mode by default to improve performance and reduce console clutter."
     ]
 }

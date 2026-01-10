@@ -1,8 +1,8 @@
 {
-    "version": "3.1.3",
+    "version": "3.1.4",
     "descriptions": [
-        "Optimized animation cancellation by removing redundant server-side checks to improve performance.",
-        "Fixed a reload exploit where canceling an animation allowed players to skip the weapon reload timer.",
-        "Resolved an issue where crouching while reloading would cause an instant weapon reload."
+        "Refactored core animation and metadata loading logic; requires updated framework player-loading events.",
+        "Fixed UI button overflow issues caused by long translation strings.",
+        "Internal stability improvements and minor bug fixes."
     ]
 }
