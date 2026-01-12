@@ -1,7 +1,9 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "descriptions": [
-        "Added Config.OnlyOwnerCanUseCard to restrict debit card usage to the account creator.",
-        "Disabled debug mode by default to improve performance and reduce console clutter."
+        "Added customizable ATM currency prefixes and expanded locale options (including greeting emoji toggle).",
+        "Refactored script initialization to remove strict start-up order requirements between Banking and ATM modules.",
+        "Unlocked color customization for all remaining UI components in colors.css.",
+        "Fixed locale fallback errors occurring on certain ATM variables."
     ]
 }
