@@ -1,9 +1,8 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "descriptions": [
-        "Added customizable ATM currency prefixes and expanded locale options (including greeting emoji toggle).",
-        "Refactored script initialization to remove strict start-up order requirements between Banking and ATM modules.",
-        "Unlocked color customization for all remaining UI components in colors.css.",
-        "Fixed locale fallback errors occurring on certain ATM variables."
+        "Added integrated logging support for Discord Webhooks and FiveManage.",
+        "Improved legacy ESX compatibility for offline player name fetching logic.",
+        "Fixed a bug where the minimap would remain hidden after closing the ATM interface."
     ]
 }
