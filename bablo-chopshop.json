@@ -1,7 +1,8 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "descriptions": [
-        "Added support for contract-specific rewards, allowing loot to be locked behind specific difficulty types.",
-        "General stability improvements and minor bug fixes."
+        "Implemented level requirements for contracts to support player progression.",
+        "Added a configuration option to set monetary costs for starting contracts.",
+        "Updated framework files to support new progression and economy logic."
     ]
 }
