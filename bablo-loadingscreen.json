@@ -1,8 +1,7 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "descriptions": [
-        "Improved overall UI responsiveness",
-        "Made the loading... text translatable through config.json",
-        "Fixed issues where larger locally stored videos would occasionally fail to load"
+        "Added support for multiple video sources to allow for randomized or sequential background playback.",
+        "Fixed a bug where audio would briefly restart at the end of the loading sequence if paused."
     ]
 }
