@@ -1,8 +1,8 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "descriptions": [
-        "Added integrated logging support for Discord Webhooks and FiveManage.",
-        "Improved legacy ESX compatibility for offline player name fetching logic.",
-        "Fixed a bug where the minimap would remain hidden after closing the ATM interface."
+        "Added modular support for Bablo-Billing; the 'Bills' view now automatically enables if the resource is detected.",
+        "Fixed ATM button alignment for the prop_atm_02 model.",
+        "Resolved an issue where certain error messages and transaction logs (Withdraw/Deposit) were bypassing localization settings."
     ]
 }
