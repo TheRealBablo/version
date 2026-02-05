@@ -1,8 +1,9 @@
 {
-    "version": "3.1.4",
+    "version": "3.1.6",
     "descriptions": [
-        "Refactored core animation and metadata loading logic; requires updated framework player-loading events.",
-        "Fixed UI button overflow issues caused by long translation strings.",
-        "Internal stability improvements and minor bug fixes."
+        "Optimized script initialization to automatically handle restarts without needing to manually run the /reload_animationsmenu command.",
+        "Added Config.EnableFreeLookToggle to allow the Freelook (ALT key) feature to be toggled on or off based on server preference.",
+        "Implemented UI notifications for Menu Focus status to clearly inform players when the feature is enabled or disabled.",
+        "General logic cleanup and stability improvements for focus handling and input registration."
     ]
 }
