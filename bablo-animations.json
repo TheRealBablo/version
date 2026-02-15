@@ -1,9 +1,9 @@
 {
-    "version": "3.1.6",
+    "version": "3.1.7",
     "descriptions": [
-        "Optimized script initialization to automatically handle restarts without needing to manually run the /reload_animationsmenu command.",
-        "Added Config.EnableFreeLookToggle to allow the Freelook (ALT key) feature to be toggled on or off based on server preference.",
-        "Implemented UI notifications for Menu Focus status to clearly inform players when the feature is enabled or disabled.",
-        "General logic cleanup and stability improvements for focus handling and input registration."
+        "Fixed a bug in the Emote Creator where missing bone variables in 'attachto' imports would cause the attachment to fail instead of defaulting to bone -1.",
+        "Added Config.DisablePropCollision to allow server owners to toggle physics/collision for props used in animations.",
+        "Integrated the Pazeee_FireworkEmotePack with pre-configured PTFX settings to resolve common behavior and visual issues.",
+        "Enhanced internal attachment logic to provide better stability for custom animation imports."
     ]
 }
