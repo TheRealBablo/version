@@ -1,9 +1,10 @@
 {
-    "version": "3.1.7",
+    "version": "3.1.8",
     "descriptions": [
-        "Fixed a bug in the Emote Creator where missing bone variables in 'attachto' imports would cause the attachment to fail instead of defaulting to bone -1.",
-        "Added Config.DisablePropCollision to allow server owners to toggle physics/collision for props used in animations.",
-        "Integrated the Pazeee_FireworkEmotePack with pre-configured PTFX settings to resolve common behavior and visual issues.",
-        "Enhanced internal attachment logic to provide better stability for custom animation imports."
+        "Replaced non-functional prop animations with over 100+ custom-made animations and unique prop models.",
+        "Removed broken shared emotes and introduced 30+ new custom couple animations with verified .ycd files.",
+        "Updated the animation converter to support the 'Flag' variable for more advanced animation configuration.",
+        "Fixed a bug in the cleanup logic that prevented props from being removed when exiting the Emote Creator.",
+        "Integrated bablo_animprops.ytyp via fxmanifest for native custom prop support."
     ]
 }
