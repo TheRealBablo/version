@@ -1,10 +1,10 @@
 {
-    "version": "3.1.8",
+    "version": "3.1.9",
     "descriptions": [
-        "Replaced non-functional prop animations with over 100+ custom-made animations and unique prop models.",
-        "Removed broken shared emotes and introduced 30+ new custom couple animations with verified .ycd files.",
-        "Updated the animation converter to support the 'Flag' variable for more advanced animation configuration.",
-        "Fixed a bug in the cleanup logic that prevented props from being removed when exiting the Emote Creator.",
-        "Integrated bablo_animprops.ytyp via fxmanifest for native custom prop support."
+        "Added Shared Emote Previews for visual feedback.",
+        "Major security overhaul: hardened events, input sanitization, and prop rate-limiting.",
+        "Fixed UI duplication bugs when using /reload_animationsmenu.",
+        "Resolved vehicle engine interference during emote cancellation.",
+        "Improved placement logic: players now walk to positions with distance scaling instead of teleporting."
     ]
 }
