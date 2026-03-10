@@ -1,10 +1,9 @@
 {
-    "version": "3.1.9",
+    "version": "3.2.0",
     "descriptions": [
-        "Added Shared Emote Previews for visual feedback.",
-        "Major security overhaul: hardened events, input sanitization, and prop rate-limiting.",
-        "Fixed UI duplication bugs when using /reload_animationsmenu.",
-        "Resolved vehicle engine interference during emote cancellation.",
-        "Improved placement logic: players now walk to positions with distance scaling instead of teleporting."
+        "Introduced the Radial Emote Wheel for quick access to favorite animations.",
+        "Integrated favorites system with the new radial UI for faster playback.",
+        "Updated core CSS (colors.css) to support new interface elements.",
+        "Optimized source logic for smoother UI transitions and faster loading."
     ]
 }
