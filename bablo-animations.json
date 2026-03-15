@@ -1,9 +1,11 @@
 {
-    "version": "3.2.0",
+    "version": "3.2.1",
     "descriptions": [
-        "Introduced the Radial Emote Wheel for quick access to favorite animations.",
-        "Integrated favorites system with the new radial UI for faster playback.",
-        "Updated core CSS (colors.css) to support new interface elements.",
-        "Optimized source logic for smoother UI transitions and faster loading."
+        "Fixed an issue where PTFX animations were non-functional.",
+        "Added 'editAnimSpeed' variable and Config.EditDancesSpeed for dance tempo control.",
+        "Implemented Solid Primary Background setting for better compatibility with older GPUs.",
+        "Added Finnish (Finish) locale support.",
+        "Fixed UI stacking issues for Accept/Cancel buttons on the animation request box.",
+        "Added support for custom .webp and GIF previews in preparation for the Animation Recorder addon."
     ]
 }
