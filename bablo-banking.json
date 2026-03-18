@@ -1,8 +1,8 @@
 {
-    "version": "1.0.8",
+    "version": "1.1.0",
     "descriptions": [
-        "Added modular support for Bablo-Billing; the 'Bills' view now automatically enables if the resource is detected.",
-        "Fixed ATM button alignment for the prop_atm_02 model.",
-        "Resolved an issue where certain error messages and transaction logs (Withdraw/Deposit) were bypassing localization settings."
+        "Fixed an issue where colors.css edits in the ATM resource did not update correctly.",
+        "Added new exports: FreezeAccount, IsAccountFrozen, and UnfreezeAccount for account state management.",
+        "Added ExportAccountTransactions export for converting banking data into readable formats like CSV."
     ]
 }
