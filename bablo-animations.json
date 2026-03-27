@@ -1,11 +1,9 @@
 {
-    "version": "3.2.1",
+    "version": "3.2.2",
     "descriptions": [
-        "Fixed an issue where PTFX animations were non-functional.",
-        "Added 'editAnimSpeed' variable and Config.EditDancesSpeed for dance tempo control.",
-        "Implemented Solid Primary Background setting for better compatibility with older GPUs.",
-        "Added Finnish (Finish) locale support.",
-        "Fixed UI stacking issues for Accept/Cancel buttons on the animation request box.",
-        "Added support for custom .webp and GIF previews in preparation for the Animation Recorder addon."
+        "Updated the Sit Anywhere module to support custom Interaction modules including ox_lib.",
+        "Added Config.AllowEmoteWheelInVehicle to toggle emote wheel access in vehicles.",
+        "Removed default keymapping for the Emote Wheel to allow for custom player keybinds in settings.",
+        "Refactored interaction logic for better UI flexibility and performance."
     ]
 }
