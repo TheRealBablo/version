@@ -1,9 +1,10 @@
 {
-    "version": "3.2.3",
+    "version": "3.2.4",
     "descriptions": [
-        "Added rotOffset to Config.SitAnyChair for per-prop rotation and heading customization.",
-        "Added Turkish and German translation support.",
-        "Fixed an issue where specific keys were unavailable for binding.",
-        "Implemented automatic animation cancellation and unfreezing when drawing a weapon during frozen states."
+        "Fixed a UI bug where the 'Stand Up' prompt appeared without the player being seated.",
+        "Increased AnimPos rotation limit from 90 to 180 degrees for better positioning.",
+        "Introduced Framework:canBeInvitedToGroup to filter dead, cuffed, or admin-mode players from group invites.",
+        "Added the missing custom_previews folder to the web directory.",
+        "General optimization of the group invitation and closest player detection logic."
     ]
 }
