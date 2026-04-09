@@ -1,13 +1,9 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.2",
     "descriptions": [
-        "Completely replaced file-based configuration with the new /pettycrimeseditor in-game suite.",
-        "Introduced the Chance Builder and Loot Table editor with visual item selection.",
-        "Added ATM Hacking, Cash Register, Store Shelf, and Vending Machine robbery modules.",
-        "Implemented a Dispatch Tab for easy customization of police codes and custom variables per crime.",
-        "Fixed Parcel spawn chances and race conditions for cooldown logic.",
-        "Added custom minigames for pickpocketing, mailboxes, and parking meters.",
-        "Added tire slashing and vehicle brick-weight acceleration features.",
-        "Added a Requirement Checker to identify missing items or dependencies."
+        "Fixed an issue where the 'Place Brick' module would only function once per session.",
+        "Implemented inventory checks for the 'Attach Hacking Device' target option.",
+        "Added comprehensive locale support for all minigames for improved customization.",
+        "Resolved a bug that interfered with the reliable saving of JSON data files."
     ]
 }
