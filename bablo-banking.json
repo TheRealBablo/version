@@ -1,8 +1,10 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.2",
     "descriptions": [
-        "Fixed an issue where colors.css edits in the ATM resource did not update correctly.",
-        "Added new exports: FreezeAccount, IsAccountFrozen, and UnfreezeAccount for account state management.",
-        "Added ExportAccountTransactions export for converting banking data into readable formats like CSV."
+        "Fixed an issue where peds would not align correctly when interacting with ATMs.",
+        "Updated withdrawal and deposit logs to use Config.Currency instead of hardcoded symbols.",
+        "Fixed a bug where Config.AccountNumberPrefix edits were not being applied correctly.",
+        "Resolved UI input locks and transaction timestamp display issues.",
+        "Applied multiple minor stability improvements and script optimizations."
     ]
 }
