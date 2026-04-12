@@ -1,0 +1,9 @@
+{
+    "version": "1.0.1",
+    "descriptions": [
+        "Implemented stack removal logic when throwing items with a count higher than 1.",
+        "Added 3D text/labels for thrown items to display stack quantities on the ground.",
+        "Patched a duplication exploit related to item placing/throwing.",
+        "Integrated a version checker for better resource management."
+    ]
+}
