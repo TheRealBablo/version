@@ -1,7 +1,9 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "descriptions": [
-
+        "Added support for multiple templates in the Quick Billing UI to allow multi-template invoices.",
+        "Fixed a bug where 'Bill Sent' notifications remained on screen permanently after successful billing.",
+        "Corrected job-check logic in Quick Billing to prevent police templates from showing for non-police jobs on first load.",
+        "General UI cleanup and logic stabilization for the billing menu."
     ]
-  }
-  
+}
