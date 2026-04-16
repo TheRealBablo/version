@@ -1,8 +1,10 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "descriptions": [
-        "Implemented level requirements for contracts to support player progression.",
-        "Added a configuration option to set monetary costs for starting contracts.",
-        "Updated framework files to support new progression and economy logic."
+        "Fixed a bug where NPC peds required debug mode to respawn after a script restart.",
+        "Resolved blip display issues and moved blip settings to Config.ChopShops.",
+        "Added support for custom contracts with automatic UI scaling/alignment.",
+        "Corrected easy contract level requirements from Level 1 to Level 0 in default config.",
+        "Fixed an error that occurred when clicking disabled items in ox_lib menus."
     ]
 }
