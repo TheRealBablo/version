@@ -1,9 +1,8 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "descriptions": [
-        "Implemented stack removal logic when throwing items with a count higher than 1.",
-        "Added 3D text/labels for thrown items to display stack quantities on the ground.",
-        "Patched a duplication exploit related to item placing/throwing.",
-        "Integrated a version checker for better resource management."
+        "Fixed a bug where mid-air items would change type if a second throw was initiated before landing.",
+        "Improved animation state handling for rapid item throwing.",
+        "General logic cleanup for item entity spawning."
     ]
 }

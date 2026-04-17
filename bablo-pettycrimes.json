@@ -1,9 +1,10 @@
 {
-    "version": "2.0.2",
+    "version": "2.0.3",
     "descriptions": [
-        "Fixed an issue where the 'Place Brick' module would only function once per session.",
-        "Implemented inventory checks for the 'Attach Hacking Device' target option.",
-        "Added comprehensive locale support for all minigames for improved customization.",
-        "Resolved a bug that interfered with the reliable saving of JSON data files."
+        "Added custom animations and a 'stuck' mechanic for mailbox robberies.",
+        "Introduced a job blacklist tab in the Editor for every crime module.",
+        "Added configurable Min/Max robbery search times for the Smash n Grab module.",
+        "Updated framework logic to handle blacklisted job checks.",
+        "Improved mailbox robbery fail-state logic and struggle minigame integration."
     ]
 }
