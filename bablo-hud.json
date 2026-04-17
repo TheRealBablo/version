@@ -1,4 +1,10 @@
 {
-    "version": "1.0.0",
-    "descriptions": []
+    "version": "1.0.1",
+    "descriptions": [
+        "Added native seatbelt buckle/unbuckle sounds via custom audio banks.",
+        "Added minimap watchdog to prevent texture loss during resource swaps.",
+        "Optimized NUI communication by diffing data payloads.",
+        "Reduced Resmon spikes by optimizing polling rates and removing debug logs.",
+        "Fixed minimap frame disappearance after closing pause menu."
+    ]
 }
