@@ -1,10 +1,11 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "descriptions": [
-        "Added native seatbelt buckle/unbuckle sounds via custom audio banks.",
-        "Added minimap watchdog to prevent texture loss during resource swaps.",
-        "Optimized NUI communication by diffing data payloads.",
-        "Reduced Resmon spikes by optimizing polling rates and removing debug logs.",
-        "Fixed minimap frame disappearance after closing pause menu."
+        "Added a new Compass module and a 5-second Seatbelt Alarm system.",
+        "Converted seatbelt and alarm sounds to 3D spatial audio for all vehicle occupants.",
+        "Fixed the minimap visibility bug that kept the radar on-screen while on foot.",
+        "Improved the Settings Reset logic to prioritize Server Presets over defaults.",
+        "Added ESC key support for closing the UI and enabled HSL color config overrides.",
+        "Added Config.useCustomMask for greater minimap customization."
     ]
 }
