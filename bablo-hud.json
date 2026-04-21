@@ -1,11 +1,11 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "descriptions": [
-        "Added a new Compass module and a 5-second Seatbelt Alarm system.",
-        "Converted seatbelt and alarm sounds to 3D spatial audio for all vehicle occupants.",
-        "Fixed the minimap visibility bug that kept the radar on-screen while on foot.",
-        "Improved the Settings Reset logic to prioritize Server Presets over defaults.",
-        "Added ESC key support for closing the UI and enabled HSL color config overrides.",
-        "Added Config.useCustomMask for greater minimap customization."
+        "Added Nitro icon and Framework native notification fallback logic.",
+        "Introduced horizontal/vertical layout toggles and custom design v7.",
+        "Implemented configurable speed-based crash ejection system.",
+        "Expanded weapon image support for .webp and standalone/template modes.",
+        "Added Lucide icon support for voice indicators.",
+        "Fixed /toggleSeatbelt chat errors and optimized status loop performance."
     ]
 }
