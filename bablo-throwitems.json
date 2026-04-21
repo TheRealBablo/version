@@ -1,8 +1,10 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "descriptions": [
-        "Fixed a bug where mid-air items would change type if a second throw was initiated before landing.",
-        "Improved animation state handling for rapid item throwing.",
-        "General logic cleanup for item entity spawning."
+        "Added Server-side exports to query the global ground item pool.",
+        "Added Client-side exports for scripts to locate and interact with nearby item props.",
+        "Implemented detailed item data tracking (ID, metadata, owner, and timestamp).",
+        "Improved compatibility for K9 and search scripts to detect dropped items.",
+        "Cleaned up ground item syncing logic."
     ]
 }
