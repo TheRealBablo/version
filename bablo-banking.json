@@ -1,10 +1,10 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "descriptions": [
-        "Fixed an issue where peds would not align correctly when interacting with ATMs.",
-        "Updated withdrawal and deposit logs to use Config.Currency instead of hardcoded symbols.",
-        "Fixed a bug where Config.AccountNumberPrefix edits were not being applied correctly.",
-        "Resolved UI input locks and transaction timestamp display issues.",
-        "Applied multiple minor stability improvements and script optimizations."
+        "Added GetBalance(accountId) export for all account types (Personal/Shared/Savings/Society).",
+        "Implemented Framework:onDeposit and Framework:onWithdrawal hooks for external script integration.",
+        "Improved UI feedback for Card PIN creation; starting with 0 now triggers an error toast.",
+        "Moved 'Card Number' inventory labels to the locale files for full translation support.",
+        "Updated documentation for Server Exports and Framework Hooks."
     ]
 }
