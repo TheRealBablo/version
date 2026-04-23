@@ -1,10 +1,9 @@
 {
-    "version": "3.2.5",
+    "version": "3.2.6",
     "descriptions": [
-        "Fixed /animpos scroll wheel rotation being reverted every frame.",
-        "Moved AnimPos pitch controls to Arrow Up/Down for better accessibility.",
-        "Renamed and enabled Config.DisablePhaseThruObjects by default to prevent phasing.",
-        "Fixed UI layout issues for players using 4K resolutions.",
-        "Ensured backwards compatibility for old configuration variable names."
+        "Fixed a bug where the Emote Wheel setting was missing from the menu.",
+        "Resolved an issue where Page Up and Page Down rotation binds would fail to register inputs.",
+        "Improved input focus handling for character rotation and pitch adjustments.",
+        "General logic cleanup for the settings interface."
     ]
 }
