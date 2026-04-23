@@ -1,11 +1,11 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "descriptions": [
-        "Added Nitro icon and Framework native notification fallback logic.",
-        "Introduced horizontal/vertical layout toggles and custom design v7.",
-        "Implemented configurable speed-based crash ejection system.",
-        "Expanded weapon image support for .webp and standalone/template modes.",
-        "Added Lucide icon support for voice indicators.",
-        "Fixed /toggleSeatbelt chat errors and optimized status loop performance."
+        "Implemented Framework:applyEjectionPhysics for custom crash handling.",
+        "Fixed ESX hunger/thirst tracking via esx_status event caching.",
+        "Hardened Server ID resolution to prevent 'ID: 0' on OneSync.",
+        "Fixed ejection directions by capturing pre-impact velocity vectors.",
+        "Resolved UI loading race conditions for Job and Cash displays.",
+        "Renamed seatbelt and engine commands to avoid resource collisions."
     ]
 }
