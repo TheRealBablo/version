@@ -1,11 +1,11 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "descriptions": [
-        "Implemented Framework:applyEjectionPhysics for custom crash handling.",
-        "Fixed ESX hunger/thirst tracking via esx_status event caching.",
-        "Hardened Server ID resolution to prevent 'ID: 0' on OneSync.",
-        "Fixed ejection directions by capturing pre-impact velocity vectors.",
-        "Resolved UI loading race conditions for Job and Cash displays.",
-        "Renamed seatbelt and engine commands to avoid resource collisions."
+        "Added Hunger/Thirst low-status notifications and audio alerts.",
+        "Refined glow intensity on status icons for better visual clarity.",
+        "Fixed minimap flickering when entering the pause menu.",
+        "Resolved QBox hunger/thirst data fetching issues.",
+        "Fixed a race condition preventing status icons from updating while HUD was hidden.",
+        "Centered status numbers for the Aura design variant."
     ]
 }
