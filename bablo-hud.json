@@ -1,11 +1,11 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "descriptions": [
-        "Added Hunger/Thirst low-status notifications and audio alerts.",
-        "Refined glow intensity on status icons for better visual clarity.",
-        "Fixed minimap flickering when entering the pause menu.",
-        "Resolved QBox hunger/thirst data fetching issues.",
-        "Fixed a race condition preventing status icons from updating while HUD was hidden.",
-        "Centered status numbers for the Aura design variant."
+        "Added support for 15+ fuel scripts and seatbelt vehicle-exit locking.",
+        "Implemented character-specific KVP saving for stress and settings persistence.",
+        "Added new stress effects: steer impairment, health regen nerfs, and damage modifiers.",
+        "Refactored stress decay to be time-based for consistent rates.",
+        "Fixed laggy radar/altimeter updates for aircraft speedometers.",
+        "Improved minimap 'hide-on-foot' reliability via post-load re-assertion."
     ]
 }
