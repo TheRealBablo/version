@@ -1,11 +1,11 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "descriptions": [
-        "Added support for 15+ fuel scripts and seatbelt vehicle-exit locking.",
-        "Implemented character-specific KVP saving for stress and settings persistence.",
-        "Added new stress effects: steer impairment, health regen nerfs, and damage modifiers.",
-        "Refactored stress decay to be time-based for consistent rates.",
-        "Fixed laggy radar/altimeter updates for aircraft speedometers.",
-        "Improved minimap 'hide-on-foot' reliability via post-load re-assertion."
+        "Added Server Logo component and custom info pill support.",
+        "Introduced two new compass styles and expanded voice support (SaltyChat/YaCA).",
+        "Overhauled Edit Mode with a grid system and component position locking.",
+        "Added a weapon whitelist for the shooting stress module.",
+        "Improved notification transitions and fixed overlapping click issues in Edit Mode.",
+        "Enabled per-component scale settings in Config.DefaultSettings."
     ]
 }
