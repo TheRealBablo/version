@@ -1,11 +1,9 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "descriptions": [
-        "Added Server Logo component and custom info pill support.",
-        "Introduced two new compass styles and expanded voice support (SaltyChat/YaCA).",
-        "Overhauled Edit Mode with a grid system and component position locking.",
-        "Added a weapon whitelist for the shooting stress module.",
-        "Improved notification transitions and fixed overlapping click issues in Edit Mode.",
-        "Enabled per-component scale settings in Config.DefaultSettings."
+        "Fixed PMA-Voice animation and range status update syncing.",
+        "Added a configurable performance tick rate for the PlayerInfo module.",
+        "Fixed minimap override logic to honor external script radar toggles.",
+        "Resolved an issue where disabled notifications still appeared in Edit Mode."
     ]
 }
