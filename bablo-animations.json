@@ -1,10 +1,7 @@
 {
-    "version": "3.2.7",
+    "version": "3.2.8",
     "descriptions": [
-        "Added Copy Animation feature with target system support (ox, qb, vivum).",
-        "Optimized Big Menu rendering for better performance on lower-end hardware.",
-        "Fixed reload-skipping exploit in the handsup module.",
-        "Resolved animation timeout bug and cache leak regarding favorite animations.",
-        "Removed Crouch module due to first-person clipset incompatibility."
+        "Reworked the Disable Combat Roll module to resolve player animation synchronization issues.",
+        "Fixed an issue where the Animation Speed UI element would get stuck when switching emotes directly without canceling."
     ]
 }
