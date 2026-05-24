@@ -1,9 +1,19 @@
 {
-    "version": "1.0.9",
+    "version": "1.1.0",
     "descriptions": [
-        "Fixed PMA-Voice animation and range status update syncing.",
-        "Added a configurable performance tick rate for the PlayerInfo module.",
-        "Fixed minimap override logic to honor external script radar toggles.",
-        "Resolved an issue where disabled notifications still appeared in Edit Mode."
+        "Fixed autoHide so statuses only appear when at or below their configured threshold (e.g., 70 only shows at 70% or lower).",
+        "Fixed autoScale issues on 2K and 4K displays when FiveM's 'Auto Scale UIs to 1920x1080' is enabled, including minimap editing and component alignment.",
+        "Fixed ultrawide monitor top-positioning issues for all components.",
+        "Fixed disabled components appearing in the Settings menu and Edit Mode — only enabled components are now shown.",
+        "Fixed flash bug where disabled components would briefly show on load.",
+        "Improved performance by disabling all fetch functions for disabled components.",
+        "Fixed dissolving statuses not appearing in the exact position they were placed.",
+        "Fixed minimap cache issue causing it to appear on foot when disabled.",
+        "Fixed Config.GlobalConfig not applying the server's layout when the player had an outdated cached layout.",
+        "Fixed Global Config not applying the colors configured in the Speedometer tab.",
+        "Added Config.Seatbelt.audioMode option to play car alarm and seatbelt sounds via NUI instead of native GTA audio.",
+        "Added Config.GlobalConfig.allowEdit allowing players to reposition HUD elements via /edithud while Global Config mode is active.",
+        "Lowered default scale of statuses for a cleaner appearance.",
+        "Reduced gap between status elements for a more compact layout."
     ]
 }
