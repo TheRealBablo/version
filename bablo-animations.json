@@ -1,7 +1,8 @@
 {
-    "version": "3.2.8",
+    "version": "3.2.9",
     "descriptions": [
-        "Reworked the Disable Combat Roll module to resolve player animation synchronization issues.",
-        "Fixed an issue where the Animation Speed UI element would get stuck when switching emotes directly without canceling."
+        "Added onCancelEmote flag — you can now define an emote that automatically plays when an active emote is canceled (e.g., onCancelEmote = \"emotename\").",
+        "Added support for converted emotes to use both musicURL and onCancelEmote flags.",
+        "Fixed an issue where musicURL wouldn't work correctly for shared emotes."
     ]
 }
