@@ -1,7 +1,9 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "descriptions": [
-        "Added a brand new caching system for framework data, statuses, and more — significantly reduces resmon usage and skips unnecessary framework function calls.",
-        "Various improvements to the framework bridge files for better stability and performance."
+        "Fixed ox_lib progress bar integration as documented in the docs.",
+        "Progress bar now supports playing animations and attaching props during its duration.",
+        "Server logo is now a moveable component in Edit Mode.",
+        "Newly improved docs site — be sure to check it out!"
     ]
 }
