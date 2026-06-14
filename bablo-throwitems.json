@@ -1,10 +1,8 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "descriptions": [
-        "Added Server-side exports to query the global ground item pool.",
-        "Added Client-side exports for scripts to locate and interact with nearby item props.",
-        "Implemented detailed item data tracking (ID, metadata, owner, and timestamp).",
-        "Improved compatibility for K9 and search scripts to detect dropped items.",
-        "Cleaned up ground item syncing logic."
+        "Overall performance improvements across the resource.",
+        "Added Throw text to the locales, allowing full customization and translation.",
+        "Various small bug fixes and stability improvements."
     ]
 }
