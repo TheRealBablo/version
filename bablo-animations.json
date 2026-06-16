@@ -1,8 +1,21 @@
 {
-    "version": "3.2.9",
+    "version": "3.3.0",
     "descriptions": [
-        "Added onCancelEmote flag — you can now define an emote that automatically plays when an active emote is canceled (e.g., onCancelEmote = \"emotename\").",
-        "Added support for converted emotes to use both musicURL and onCancelEmote flags.",
-        "Fixed an issue where musicURL wouldn't work correctly for shared emotes."
+        "Added a brand new Emote Editor (/emoteeditor) — a full in-game editor for managing and creating emotes, with live position/offset editing that applies instantly without restarts.",
+        "The Emote Editor includes a built-in Emote Creator for Solo and Shared (2-ped) emotes, replacing the removed /emotecreator command.",
+        "Added Import/Export — copy any emote's config as ready-to-paste code, or paste code in bulk to add/update emotes.",
+        "Added custom categories — create or delete your own (deleted categories move their emotes back to Emotes).",
+        "Added search and select-all to find emotes fast and select every match in a category at once.",
+        "Added the ability to rename /e commands; the old command name keeps working too.",
+        "The editor is format-aware: edits regular emotes, walks, expressions, and weapon styles.",
+        "Added shared emote support — adjust partner offsets and jump straight to your partner from the editor.",
+        "Added a Quick Start guide that auto-shows the first time, with examples and a docs link.",
+        "Added a 3D gizmo for prop placement in the Emote Creator — drag handles to place/rotate props instead of typing slider numbers. Works on every prop slot in both Solo and Shared modes.",
+        "Added a 3D gizmo for /animpos — press G to position your ped's animation with the gizmo. Right-drag to orbit, scroll to zoom, E confirm, Esc cancel. Default mode is per-player and saved.",
+        "Added Config.AnimAdjustGizmo to disable the /animpos gizmo server-wide.",
+        "Hold Shift while dragging any gizmo to snap to clean steps (5 cm / 15°).",
+        "Removed the /emotecreator command — Emote Creator now lives inside /emoteeditor → Create.",
+        "Fixed the Emote Creator sometimes not deleting the old prop when changing props (props could pile up) — props now spawn cleanly via an Apply button.",
+        "Refined gizmo handle colors (softer, accent-matched)."
     ]
 }
