@@ -1,4 +1,9 @@
 {
-    "version": "1.0.0",
-    "descriptions": []
+    "version": "1.0.1",
+    "descriptions": [
+        "Added Config.Trackbuilder.AdminOnly — when true, only admins may create, edit, or delete tracks.",
+        "Added framework permission hook CanStartRace(source) — controls who can start a race (returns true by default).",
+        "Added framework permission hook CanCreateTrack(source) — defaults to checking admin/god QBCore permissions and Ace command permission.",
+        "Both new permission functions live inside the frameworks/ folder, allowing full customization (job-based access, Discord roles, etc.) without touching core resource code."
+    ]
 }
