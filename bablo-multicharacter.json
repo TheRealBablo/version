@@ -1,10 +1,8 @@
 {
-    "version": "1.0.3",
+    "version": "1.0.5",
     "descriptions": [
-        "Added Config.EnableSpawnMenu — when set to false, clicking PLAY skips the spawn-selection map and instantly spawns the character at their last saved location.",
-        "Added fallback logic: if a character has no saved position, the server uses the first entry in Config.SpawnPositions.",
-        "Default behavior preserved — with EnableSpawnMenu = true (default), the spawn-selection map still shows last location, houses, and configured points.",
-        "New-character creation is unaffected and always runs the create/clothing flow.",
-        "Fixed several issues with routing bucket handling for improved stability during character selection and spawning."
+        "Added support for rcore_housing in Config.Housing, expanding the range of supported housing scripts.",
+        "Hardened routing bucket validation logic for improved player isolation and stability during character selection and spawning.",
+        "Fixed various smaller bugs across the resource for improved reliability."
     ]
 }
