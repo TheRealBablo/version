@@ -1,10 +1,12 @@
 {
-    "version": "2.0.3",
+    "version": "2.0.4",
     "descriptions": [
-        "Added custom animations and a 'stuck' mechanic for mailbox robberies.",
-        "Introduced a job blacklist tab in the Editor for every crime module.",
-        "Added configurable Min/Max robbery search times for the Smash n Grab module.",
-        "Updated framework logic to handle blacklisted job checks.",
-        "Improved mailbox robbery fail-state logic and struggle minigame integration."
+        "Added server-side enforcement of the job blacklist across all 12 crime modules — blacklisted jobs are re-checked on the server before any loot/reward is granted, preventing client-side bypasses.",
+        "Closed the brief window right after a player spawns before their config syncs by ensuring server-side checks always run.",
+        "Job blacklist matching is now case-insensitive — Police, police, and ' police ' all match correctly. Names are trimmed and lower-cased on both client and server.",
+        "Added config-sync wait to mugging, parcels, pickpocketing, tire slash, and pedal brick — all 12 modules now wait properly so the blacklist applies the moment a module becomes usable.",
+        "Cash register lockpick minigame now locks the player in place during the lockpick, matching mailbox robbery behaviour. Cancelling fails the robbery and releases them cleanly.",
+        "Cash register break-in now plays a full-body looping animation instead of the upper-body-only variant.",
+        "Fixed the editor not clearing a module's blacklisted-jobs list when emptied and saved — it now clears properly."
     ]
 }
