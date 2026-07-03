@@ -1,9 +1,10 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.6",
     "descriptions": [
-        "Fixed ox_lib progress bar integration as documented in the docs.",
-        "Progress bar now supports playing animations and attaching props during its duration.",
-        "Server logo is now a moveable component in Edit Mode.",
-        "Newly improved docs site — be sure to check it out!"
+        "Added resizable minimap — drag-to-resize directly in Edit Mode.",
+        "Added Config.DefaultSettings.minimap.size for the server default size, and maxSize for the player drag ceiling (default 125%).",
+        "Fixed server logo flash — the giant/mispositioned logo appearing when spamming the pause menu.",
+        "Fixed minimap detaching from its edit box when enlarged — resolved the drag-vs-radar scale mismatch.",
+        "Player blip and all other blips are now hidden while in Edit Mode for a cleaner view when dragging components."
     ]
 }
