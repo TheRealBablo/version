@@ -1,8 +1,10 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.7",
     "descriptions": [
-        "Added support for rcore_housing in Config.Housing, expanding the range of supported housing scripts.",
-        "Hardened routing bucket validation logic for improved player isolation and stability during character selection and spawning.",
-        "Fixed various smaller bugs across the resource for improved reliability."
+        "Added full codem-appearance (mAppearance) support — works on QBCore, Qbox, and ESX. Auto-detected or set with Config.Appearance = \"codem-appearance\".",
+        "Added Config.AllowCharacterDeletion (default true) — set to false to hide the delete button and block character deletion server-side.",
+        "Fixed rcore_clothing not applying rcore-exported skins on ESX.",
+        "Fixed ESX HUD, hunger/thirst, and the ambulance deathscreen staying broken after spawn until a manual revive. Weapon loadouts are now restored automatically on spawn.",
+        "Fixed skinchanger events conflicting with other appearance systems — the restore now only runs when skinchanger is your active appearance system."
     ]
 }
