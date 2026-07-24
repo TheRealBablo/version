@@ -1,8 +1,8 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "descriptions": [
-        "Overall performance improvements across the resource.",
-        "Added Throw text to the locales, allowing full customization and translation.",
-        "Various small bug fixes and stability improvements."
+        "Fixed Discord webhook logs never sending even with Config.Logs enabled.",
+        "Added lation_ui support for the throw/place text UI via Config.TextUI.",
+        "Update webhooks.lua, config.lua and the shared files when installing this version."
     ]
 }

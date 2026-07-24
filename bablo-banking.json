@@ -1,7 +1,9 @@
 {
-    "version": "1.1.4",
+    "version": "1.1.6",
     "descriptions": [
-        "Fixed society account access being granted to all players regardless of grade — now correctly respects the configured minimum grade and above only.",
-        "Fixed small UI issues including unwanted delays and minor responsiveness quirks across the interface."
+        "Added Mobile Banking App support for Road Phone — installs and runs natively alongside the existing LB Phone integration.",
+        "Added Mobile Banking App support for YSeries — full feature parity with the LB Phone version.",
+        "Both new phone integrations include the full banking feature set: home dashboard, deposits/withdrawals/transfers, card management, account settings, and shared account permissions.",
+        "Various smaller improvements and refinements across the resource for better stability and overall UX."
     ]
 }
