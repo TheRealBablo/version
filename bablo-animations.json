@@ -1,8 +1,27 @@
 {
-    "version": "3.3.1",
+    "version": "3.3.2",
     "descriptions": [
-        "Fixed compatibility issue with core_cinematics where props wouldn't show correctly.",
-        "Redone how statebags are handled in the PTFX module and fixed a debounce issue for improved stability.",
-        "Added missing locale strings for better translation coverage."
+        "Added a full visual Theme Editor, opened from a button in the Emote Editor. colors.css is retired — everything now runs through the Theme Editor.",
+        "Themes save server-side to theme.json and push live to everyone instantly. Only admins can save, and no restart is needed.",
+        "Automatic migration: on first start after updating, the script converts your existing colors.css to theme.json (you'll see 'migrated colors.css -> theme.json' in the console). Base colours, header colour, glow, and all nine emote wheel colours transfer automatically.",
+        "Nine editable components with their own tabs: Normal Menu, Big Menu, Header, Cards, Categories, Settings, Emote Wheel, Help Bar, and Dialogs. Set a base look once, then override any component.",
+        "Per component: edit accent/surface/border/text colours, use solid or gradient fills with stop control, adjust border radius/width/glow/font scale, toggle per-component blur with a strength slider, and customize the outer frame border independently.",
+        "Hover and active states are fully themeable, with a Normal/Hover toggle in the preview.",
+        "Live preview built from the real menu's markup — what you see is exactly what the menu looks like.",
+        "9 preset themes included: Original, Bablo's Favorite, Vision, Midnight, Crimson, Synthwave, Carbon, Abyss, and Emerald. You can also share/import theme codes or reset to default.",
+        "Real game blur — panels blur the actual game world behind them instead of faking it, with strength tiers for quality vs. performance.",
+        "Added 'play an emote together' — middle-click any normal emote to ask the closest player to play it with you. They get an accept/deny prompt; on accept, you both play it at the same time.",
+        "Added 15 brand-new custom shared couple emotes to expand the shared emote library out of the box.",
+        "Added a few missing flag emotes to round out the flag emote collection.",
+        "The Emote Editor can now hide built-in categories from the player menu.",
+        "Added registerEmote export — external animation tools can register emotes straight into your emote files, including a customMovementType option.",
+        "Added Config.HelpBarPosition — position the key hints at the bottom, top, left, or right. Side positions stack the hints vertically.",
+        "Added Config.AnimPosGizmoMaxRadius — caps how far /animpos can drag a ped from its starting point.",
+        "Removed /emotecreator command — /emoteeditor is now the single command.",
+        "Fixed gradients breaking the panel border — the fill used to paint under the ring, turning the edge into a colour band instead of a border.",
+        "Fixed ox_lib help text to show the real keybinds instead of generic text, and to appear when placing an animation.",
+        "Fixed statebag warnings on servers running strict mode.",
+        "Fixed the emote wheel not recolouring with the theme.",
+        "Fixed the Normal Menu's colours bleeding into the Help Bar or Big Menu — each now has its own tab and stays on it."
     ]
 }
