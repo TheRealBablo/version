@@ -1,10 +1,14 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.9",
     "descriptions": [
-        "Added full codem-appearance (mAppearance) support — works on QBCore, Qbox, and ESX. Auto-detected or set with Config.Appearance = \"codem-appearance\".",
-        "Added Config.AllowCharacterDeletion (default true) — set to false to hide the delete button and block character deletion server-side.",
-        "Fixed rcore_clothing not applying rcore-exported skins on ESX.",
-        "Fixed ESX HUD, hunger/thirst, and the ambulance deathscreen staying broken after spawn until a manual revive. Weapon loadouts are now restored automatically on spawn.",
-        "Fixed skinchanger events conflicting with other appearance systems — the restore now only runs when skinchanger is your active appearance system."
+        "All fonts are now bundled locally — the select UI no longer depends on external font servers. Fixes the character UI taking 5–30s to appear for players with slow or filtered routes to Google.",
+        "Resource download shrunk from 113 MB to ~4 MB by removing unused font files.",
+        "New UI boot handshake — on servers with many NUI resources, the loading screen now holds until the character UI is actually ready. The select scene and UI always appear together, eliminating invisible PLAY buttons and dead clicks after the camera transition.",
+        "Self-healing character peds — if a client runs out of asset memory (heavy servers / low-end PCs), missing slot peds now retry and appear automatically once memory frees. Model references are also released after spawning to reduce streaming pressure.",
+        "The select UI can no longer be blanked by config mistakes — invalid icon/field values in Config.CharacterDetail now show a fallback icon instead of crashing, and any UI error shows a clear on-screen message plus a readable F8 error.",
+        "Spawn safety overhaul — players are now invincible during the entire spawn/create sequence, with a collision-load wait before release. Fixes 'loading in dead' and drowning/falling through unloaded ground on fresh characters.",
+        "Added an anchor that prevents new characters from ending up at the select location instead of their intended spawn point.",
+        "Added Config.ESXPassFullIdentifier for servers running edited es_extended builds that don't append the license to character identifiers. Fixes rows being saved as plain char1 and the resulting 'Duplicate entry' error on character creation.",
+        "Enhanced debug logging (Config.DEBUG = true only) — added a build version banner, UI boot/click/panel timing logs, NUI freeze detector, and recording-state watcher. One debug log now tells support exactly where a problem lives."
     ]
 }
