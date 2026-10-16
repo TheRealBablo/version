@@ -1,20 +1,14 @@
 {
-    "version": "2.0.3",
+    "version": "2.0.5",
     "descriptions": [
-        "Added customizable money format across the HUD — $, kr, €, or any custom template.",
-        "Added dirty money and gang pills that connect to your own gang or dirty-money scripts.",
-        "Added support for custom fuel scripts.",
-        "Added phone integration — the HUD now moves out of the way automatically when a phone opens. Supports lb-phone, RoadPhone, and gksphone.",
-        "Notifications now automatically avoid overlapping the player info stack.",
-        "Fixed the compass and progress bar snapping back to center after being dragged.",
-        "Fixed the minimap and speedometer not being draggable for some customers.",
-        "Fixed the 'Show Map on Foot' toggle doing the opposite of what it displayed.",
-        "Fixed the compass and Racing Angle speedometer ignoring your configured theme color.",
-        "Reverted an unintended change to the Edit Mode grid color.",
-        "Fixed overlapping text in the compass settings tab.",
-        "Fixed voice range (whisper/normal/shout) not working correctly with custom voice ranges.",
-        "Fixed global HUD settings not saving properly on some hosts.",
-        "The minimap curtain logo can now be changed — previously locked.",
-        "Fixed a recurring console spam error."
+        "Added Compact Compass — a new compass style that sits directly above the minimap at the same width as the map.",
+        "The Compact Compass has a small moving heading tape with a direction pill (e.g. NW | 315°) in your server's theme colour.",
+        "The Compact Compass shows the street, cross street and zone, plus waypoint distance and postal code. Postal codes need nearest-postal or a similar resource.",
+        "When the Compact Compass is on, the waypoint distance shows inside it instead of in a separate pill.",
+        "Long street names now shorten automatically so nothing overlaps.",
+        "Compact Compass uses a dark frosted background that matches the floating compass and speedometer.",
+        "Switch between Floating and Compact compass with the new tabs in Settings → Compass.",
+        "Added Boxes player info layout — uses the same pills as Stacked, arranged in three rows: job / gang, money, and ID / time.",
+        "Pick Stacked Pills or Boxes with the new tabs in Player Info settings."
     ]
 }
