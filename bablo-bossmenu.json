@@ -1,0 +1,24 @@
+{
+    "version": "1.0.8",
+    "descriptions": [
+        "Added menu access per grade — choose which ranks can use the wardrobe and each job stash (Grades & Permissions → Edit Grade).",
+        "Added Manage Access per employee — allow or deny one employee the wardrobe, the shop or any single stash right from the Employees tab (new 'Manage access' permission).",
+        "Added invoice payouts per grade — bosses set how much of a paid job invoice goes to the employee and how much to the society (requires the latest bablo-billing).",
+        "Added Instant Delivery — new creator checkbox that sends store orders straight into the stash.",
+        "Added an Enable Shop toggle per job in the creator.",
+        "Added a Restore Previous Outfit button in the wardrobe.",
+        "Uniforms can now be limited to male or female peds.",
+        "Added optional on-duty with uniforms — put on a uniform to clock in, restore your outfit to clock out (QBCore/Qbox, Settings.WardrobeOnDuty).",
+        "Added Settings.OutfitProps to choose which accessories count as part of a uniform.",
+        "Added Discord and Fivemanage logs for every boss menu action (webhooks.lua).",
+        "Added developer events for when the menu opens and closes: bablo-bossmenu:client:onOpen / onClose.",
+        "Society balance now updates live while the menu is open, so bank deposits show up without reopening.",
+        "The creator is now fully translatable.",
+        "Fixed putting on a uniform copying the creator's face, hair and tattoos.",
+        "Fixed uniforms changing your own glasses, earrings, watch or bracelets.",
+        "Fixed store orders that only partly fit in the stash duplicating the items that arrived.",
+        "Job stashes are now locked to their job directly in ox_inventory.",
+        "Dashboard and Profile now show the real transaction and store order counts.",
+        "No SQL needed — new tables are created automatically."
+    ]
+}

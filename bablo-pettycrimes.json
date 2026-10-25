@@ -1,12 +1,13 @@
 {
-    "version": "2.0.4",
+    "version": "2.1.0",
     "descriptions": [
-        "Added server-side enforcement of the job blacklist across all 12 crime modules — blacklisted jobs are re-checked on the server before any loot/reward is granted, preventing client-side bypasses.",
-        "Closed the brief window right after a player spawns before their config syncs by ensuring server-side checks always run.",
-        "Job blacklist matching is now case-insensitive — Police, police, and ' police ' all match correctly. Names are trimmed and lower-cased on both client and server.",
-        "Added config-sync wait to mugging, parcels, pickpocketing, tire slash, and pedal brick — all 12 modules now wait properly so the blacklist applies the moment a module becomes usable.",
-        "Cash register lockpick minigame now locks the player in place during the lockpick, matching mailbox robbery behaviour. Cancelling fails the robbery and releases them cleanly.",
-        "Cash register break-in now plays a full-body looping animation instead of the upper-body-only variant.",
-        "Fixed the editor not clearing a module's blacklisted-jobs list when emptied and saved — it now clears properly."
+        "Added custom locations for Store Shelves — shelves that are part of the map (not props) can now be searched too. In the editor go to Store Shelves → Locations, stand facing the shelf and press Add My Position (or paste coords like x, y, z / vector3(...)).",
+        "You can now set the size of the Store Shelves search spot. Changes apply as soon as you save, no restart needed. Works with ox_target, qb-target and standalone.",
+        "Mailboxes: the robbery animation now plays every time, not just on the first attempt.",
+        "Mailboxes: failing the lockpick now ends the attempt. Before, it trapped you in the 'stuck' minigame until you won it.",
+        "Mailboxes: getting stuck now only happens after a successful robbery (Stuck Chance), and you get at most 5 tries to break free.",
+        "Mailboxes: opening a letter can no longer give you another letter.",
+        "When updating: if you use your own edited target file (src/targets/*.lua), copy the new addSphereZone and removeZone functions into it or Store Shelves locations won't show. Everything else keeps working without them.",
+        "Restart the resource; your editor settings carry over."
     ]
 }
