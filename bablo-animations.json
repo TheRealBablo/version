@@ -1,9 +1,14 @@
 {
-    "version": "3.3.7",
+    "version": "3.3.8",
     "descriptions": [
-        "Optimised idle background checks to reduce memory and CPU usage — animation state and gun style syncing now reuse cached data and skip work when it isn't needed, so memory no longer appears to climb in resmon.",
-        "Gun style syncing no longer searches the full animation list for nearby armed players every few seconds.",
-        "Fixed player data (group membership and sync cooldowns) not being cleaned up when a player disconnects.",
-        "Fixed re-inviting a group member adding them to the group twice."
+        "Added a new emote option, NotAsDriver — it blocks an emote for the driver of a vehicle, but passengers can still play it. Add NotAsDriver = true to an emote's AnimationOptions; it works in convert.lua and in normal emotes. The emote editor also has a 'Block as driver' switch. A driver who tries the emote gets the message 'You can not play this emote while driving'.",
+        "Fixed pistols firing twice per click with the Gang and Hillbilly gun styles. The fix is in the animation files themselves.",
+        "Fixed OnlyOnFoot not working for emotes in convert.lua.",
+        "Fixed the emote wheel glitching on emotes that have no preview image — it now shows a ? instead.",
+        "Removed weapons.meta. It overwrote the stats of GTA's base weapons and slowed the pistol down to hide the double shot. Weapons now use GTA's default stats again, or your own weapon edits if you have any.",
+        "Every option in Config.Modules now has a short comment explaining what it does.",
+        "Removed the /animmem and animmem_sv debug commands.",
+        "When updating: add the new stream/[weaponstyles] folder and replace fxmanifest.lua. You can delete the old data/weapons.meta.",
+        "If you edited your locale files, add the new NOT_AS_DRIVER line."
     ]
 }
