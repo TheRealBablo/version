@@ -1,7 +1,8 @@
 {
-    "version": "1.0.5",
+    "version": "1.0.9",
     "descriptions": [
-        "Fixed an issue with hardcoded default templates — defaults now properly respect the configured values.",
-        "Fixed various smaller bugs across the resource for improved reliability."
+        "Fixed 'Failed to get identifier for source X' showing in the server console when a player joins. The billing UI was requesting invoice templates before the player had picked a character — templates now load only when the quick bill menu is opened.",
+        "Removed unnecessary server requests that ran every time a player joined.",
+        "Only web/dist changed — replace that folder. No config or database changes needed."
     ]
 }

@@ -1,14 +1,20 @@
 {
-    "version": "1.0.9",
+    "version": "1.1.1",
     "descriptions": [
-        "All fonts are now bundled locally — the select UI no longer depends on external font servers. Fixes the character UI taking 5–30s to appear for players with slow or filtered routes to Google.",
-        "Resource download shrunk from 113 MB to ~4 MB by removing unused font files.",
-        "New UI boot handshake — on servers with many NUI resources, the loading screen now holds until the character UI is actually ready. The select scene and UI always appear together, eliminating invisible PLAY buttons and dead clicks after the camera transition.",
-        "Self-healing character peds — if a client runs out of asset memory (heavy servers / low-end PCs), missing slot peds now retry and appear automatically once memory frees. Model references are also released after spawning to reduce streaming pressure.",
-        "The select UI can no longer be blanked by config mistakes — invalid icon/field values in Config.CharacterDetail now show a fallback icon instead of crashing, and any UI error shows a clear on-screen message plus a readable F8 error.",
-        "Spawn safety overhaul — players are now invincible during the entire spawn/create sequence, with a collision-load wait before release. Fixes 'loading in dead' and drowning/falling through unloaded ground on fresh characters.",
-        "Added an anchor that prevents new characters from ending up at the select location instead of their intended spawn point.",
-        "Added Config.ESXPassFullIdentifier for servers running edited es_extended builds that don't append the license to character identifiers. Fixes rows being saved as plain char1 and the resulting 'Duplicate entry' error on character creation.",
-        "Enhanced debug logging (Config.DEBUG = true only) — added a build version banner, UI boot/click/panel timing logs, NUI freeze detector, and recording-state watcher. One debug log now tells support exactly where a problem lives."
+        "Fixed characters failing to load entirely on servers with newer oxmysql — every database call died with 'attempt to index a nil value (field MySQL)'. The resource now imports @oxmysql directly, plus a built-in fallback that rebuilds the connection from oxmysql's exports if that import ever fails.",
+        "Fixed the UI breaking on windowed / smaller screens — on any window narrower than 1920px the character select and spawn map were squeezed and pushed off-centre.",
+        "Fixed custom spawn points never appearing on the map — the spawn map now fetches the list itself when opened.",
+        "Fixed the PLAY button / character info taking 5–30 seconds to appear on busy servers — the UI now confirms it's ready before the scene is revealed.",
+        "Fixed the select screen going completely blank from a typo in Config.CharacterDetail — invalid values now fall back safely and any UI error shows a readable message.",
+        "Fixed players spawning dead, falling through unloaded ground, or landing at the character-select location instead of their spawn.",
+        "Fixed character peds missing on clients low on asset memory — empty slots now recover automatically.",
+        "Resource download reduced from 113 MB to ~4 MB (removed 47 unused font files) and removed an external font dependency that could delay the UI by 5–30s.",
+        "Added per-spawn-point colours — add color = \"#RRGGBB\" to any entry in Config.SpawnPositions.",
+        "Added Config.AllowCharacterDeletion — hides the delete button and rejects delete requests server-side.",
+        "Added Config.ESXPassFullIdentifier for edited es_extended builds that don't append the licence to character identifiers (fixes rows saved as plain char1 and 'Duplicate entry' on create).",
+        "Added integration state for other resources — LocalPlayer.state.bablo_multichar_open plus bablo-multicharacter:client:opened / :closed events.",
+        "Added debug diagnostics (Config.DEBUG): build version banner, UI timing, and a NUI freeze detector.",
+        "[ESX] Fixed characters spawning as Michael instead of their saved appearance (skinchanger / codem-appearance), and HUD/status scripts not initialising until a manual revive.",
+        "[Qbox] Fixed 'all my old characters are gone' caused by a licence-column mismatch when looking up saved characters."
     ]
 }
