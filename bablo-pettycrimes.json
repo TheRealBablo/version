@@ -1,13 +1,14 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "descriptions": [
-        "Added custom locations for Store Shelves — shelves that are part of the map (not props) can now be searched too. In the editor go to Store Shelves → Locations, stand facing the shelf and press Add My Position (or paste coords like x, y, z / vector3(...)).",
-        "You can now set the size of the Store Shelves search spot. Changes apply as soon as you save, no restart needed. Works with ox_target, qb-target and standalone.",
-        "Mailboxes: the robbery animation now plays every time, not just on the first attempt.",
-        "Mailboxes: failing the lockpick now ends the attempt. Before, it trapped you in the 'stuck' minigame until you won it.",
-        "Mailboxes: getting stuck now only happens after a successful robbery (Stuck Chance), and you get at most 5 tries to break free.",
-        "Mailboxes: opening a letter can no longer give you another letter.",
-        "When updating: if you use your own edited target file (src/targets/*.lua), copy the new addSphereZone and removeZone functions into it or Store Shelves locations won't show. Everything else keeps working without them.",
-        "Restart the resource; your editor settings carry over."
+        "Added an open minigame file, src/minigames/minigames.lua — every crime starts its minigame from there (lockpick, ATM hack, pickpocketing, vending machine skill check). Swap in any minigame script, for all crimes or just one. How-to and examples are in config.lua.",
+        "Added a 'Carry Prop' tab to the Parcels editor to change the prop you hold after stealing a parcel: model, bone, position, rotation and carry animation. Use 'Preview on me' to see it on your character before saving, and 'Reset' to go back to the default box.",
+        "Fixed some players not seeing parcels: parcels that came back from cooldown after a player joined now show up for them too.",
+        "Fixed one prop failing to load hiding every parcel for that player.",
+        "Qbox: players online during a script restart now get parcels (and Smash N Grab) without relogging.",
+        "Props are now properly loaded before they spawn (parcels and Smash N Grab loot), so they're less likely to go missing on busy servers.",
+        "With Config.Debug on, F8 now tells you when a parcel prop can't be spawned.",
+        "When updating: add the new src/minigames/ folder and replace the fxmanifest, which has changed.",
+        "Restart the resource; your editor settings carry over and the carry prop starts as the default box."
     ]
 }
