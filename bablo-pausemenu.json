@@ -1,8 +1,26 @@
 {
-    "version": "1.0.5",
+    "version": "2.0.0",
     "descriptions": [
-        "Added checks to prevent the pause menu from opening when pressing ESC if another UI is already open",
-        "Fixed an issue where the waypoint could get stuck after being removed",
-        "Fixed an issue where the waypoint would randomly disappear"
+        "The biggest update yet: a full redesign, GTA's settings and key bindings inside the pause menu, a new map locations list, and support for every game build.",
+        "New design — the whole pause menu is redesigned (header, player info, map card, announcements and settings) on top of a dark, blurred view of the game.",
+        "Added a live map card on the main page showing your current position. Open Map takes you to the full map.",
+        "Added GTA settings inside the pause menu — every settings tab (Gamepad, Keyboard/Mouse, Audio, Camera, Display, Graphics, Advanced Graphics, Voice Chat, Rockstar Editor) in the pause menu's style, with Save / Reset, an unsaved-changes prompt, a description for every setting, a video memory bar and live game view for graphics, GTA's own questions shown in the menu's dialog, and background tab loading so tabs open instantly.",
+        "Added key bindings inside the pause menu — all GTA and FiveM key bindings with search. Click a key, press the new one, done. FiveM binds are grouped by resource.",
+        "Added a map locations list — GTA's map legend in the pause menu style, with search, a switcher to step through every blip of the same type, and a controls bar (Enter sets a waypoint).",
+        "Admins can now create and delete announcements from the pause menu with the new + Create button. Admins are your framework's admin group or anyone with the command.bablopausemenu_admin ace.",
+        "Works on every game build, from the oldest builds up to 3889. The resource picks the right files for your sv_enforceGameBuild by itself when it starts, with no setup.",
+        "Smoother menu with higher FPS while it's open.",
+        "Added a short cooldown that stops visual bugs from spam-opening the menu (Config.OpenCooldown).",
+        "Added English and German translations for everything new.",
+        "Fixed the screen blur staying on after closing the menu (ESC spam or leaving the map, mostly at low FPS).",
+        "Fixed waypoints appearing or moving by themselves when opening the map from the pause menu.",
+        "Fixed the menu getting stuck when the server took too long to answer.",
+        "Removed a leftover debug line from the server console.",
+        "New config: Config.OpenCooldown (seconds between opens, 0 = off), Config.Settings (Mode, HideNativeMenu, GraphicsSections, FiveMKeysName, Preload) and Config.MapLegend (turns the map locations list on or off).",
+        "Config.CustomButtons is now empty by default; the Quit button is kept as a commented example.",
+        "New colors.css variables: --map-overlay (dark layer over the map card) and --backdrop-game (how much of the game shows through the dark background, 0–1, default 0.055). Icons now follow --global-surface and --global-dark.",
+        "When updating: replace the whole folder, copy your own values into the new config.lua (it has new options), and add the two new variables if you keep your old colors.css.",
+        "Players should restart FiveM once after the update so the new settings and map screens load.",
+        "Needs ox_lib and oxmysql."
     ]
 }
