@@ -1,9 +1,9 @@
 {
-    "version": "1.1.6",
+    "version": "1.1.8",
     "descriptions": [
-        "Added Mobile Banking App support for Road Phone — installs and runs natively alongside the existing LB Phone integration.",
-        "Added Mobile Banking App support for YSeries — full feature parity with the LB Phone version.",
-        "Both new phone integrations include the full banking feature set: home dashboard, deposits/withdrawals/transfers, card management, account settings, and shared account permissions.",
-        "Various smaller improvements and refinements across the resource for better stability and overall UX."
+        "Fixed sending money by picking a contact always failing with 'Action failed'. It now pays the contact's main account, and shows a clear message if that number has no bank account.",
+        "Fixed the Copy IBAN buttons doing nothing inside phones. Copying now works on every phone and on desktop.",
+        "The Phone App setup guide now covers GKSPhone V2 — Docs → Banking → Phone App.",
+        "Note: paying a contact goes to their main account, so they need to be online (same rule as IBAN transfers to a main account)."
     ]
 }
